@@ -15,7 +15,7 @@ const Banner = () => {
                         <h1 className="text-3xl md:text-[40px] font-bold">Assemble Your Ultimate Dream 11 Cricket Team</h1>
                         <p className="md:text-2xl font-medium">Beyond Boundaries Beyond Limits</p>
                     </div>
-                    <button className="px-8 py-4 rounded-2xl bg-[#E7FE29] border-2 border-[#131313] text-[#131313] font-bold hover:bg-[#d8ef22] hover:scale-105 active:scale-100 active:ring-2 active:ring-[#d8ef22] active:ring-offset-2 active:ring-offset-[#131313]">
+                    <button className="px-8 py-4 rounded-2xl bg-[#E7FE29] border-2 border-[#131313] text-[#131313] font-bold hover:bg-[#d8ef22] hover:scale-105 active:scale-100 active:ring-2 active:ring-[#d8ef22] active:ring-offset-2 active:ring-offset-[#131313] transition-all duration-150 ease-in-out">
                         Claim Free Credit
                     </button>
                 </div>

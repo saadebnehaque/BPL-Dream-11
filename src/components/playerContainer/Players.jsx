@@ -1,31 +1,36 @@
-import PlayerCard from "./PlayerCard";
+
+import { useState } from "react";
+import AvailablePlayers from "./availablePlayers/AvailablePlayer";
+import SelectetPlayers from "./selectedPlayers/SelectetPlayers";
 
 
+const Players = ({ isLoading, error, playersData }) => {
 
-const Players = ({ error, isLoading, playersData }) => {
-    console.log(playersData);
+    const [btnType, setBtnType] = useState('available');
 
 
     return (
         <>
             <div className="container mx-auto mt-22 space-y-8">
                 <div className="sticky top-16 p-4 z-9 bg-white shadow-sm flex flex-col md:flex-row items-center justify-between ">
-                    <h2 className="text-[28px] font-bold">Availabale Players</h2>
+                    <h2 className="text-[28px] font-bold">{btnType === 'available' ? 'Availabale Players' : `Selected Players `}</h2>
                     <div className="space-x-0 ">
-                        <button className="btn bg-[#E7FE29] border-r-0 rounded-[10px_0_0_10px]">Available</button>
-                        <button className="btn border-l-0 rounded-[0_10px_10px_0]">Selected(0)</button>
+                        <button
+                            onClick={() => setBtnType('available')}
+                            className={`btn ${btnType === 'available' && 'bg-[#E7FE29]'} border-r-0 rounded-r-none rounded-l-[10px]`}
+                        >Available</button>
+                        <button
+                            onClick={() => setBtnType('selected')}
+                            className={`btn ${btnType === 'selected' && 'bg-[#E7FE29]'} border-l-0 rounded-l-none rounded-r-[10px]`}
+                        >Selected(0)</button>
                     </div>
                 </div>
 
                 {/* card containter */}
-                <div className=" flex flex-wrap justify-center gap-6">
-                    {error ? <p className="text-error text-center">{error}</p> :
-                        isLoading ?
-                            <div className="flex items-center justify-center w-fit mx-auto">
-                                <span className="loading loading-bars loading-xl"></span>
-                            </div>
-                            : playersData.map(player => <PlayerCard key={player.id} player={player}></PlayerCard>)}
-                </div>
+
+                {btnType === 'available' ? <AvailablePlayers isLoading={isLoading} playersData={playersData} error={error}></AvailablePlayers> : <SelectetPlayers></SelectetPlayers>}
+
+
             </div>
         </>
     );

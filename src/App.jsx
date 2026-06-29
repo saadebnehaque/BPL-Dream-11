@@ -5,6 +5,7 @@ import Navbar from "./components/navBar/Navbar"
 import Players from "./components/playerContainer/Players"
 import { useDaisyTehme } from "./components/themes/DaisyTehme"
 import { toast, ToastContainer } from "react-toastify"
+// import AvailablePlayers from "./components/playerContainer/availablePlayers/AvailablePlayer"
 
 
 

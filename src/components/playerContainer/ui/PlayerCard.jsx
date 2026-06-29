@@ -1,10 +1,10 @@
-import { FaFlag, FaGithub, } from "react-icons/fa";
+import { FaFlag, FaUser, } from "react-icons/fa";
 
 
 
 const PlayerCard = ({ player }) => {
 
-    console.log(player);
+    
 
 
     return (
@@ -15,7 +15,7 @@ const PlayerCard = ({ player }) => {
                 <div className="space-y-4">
                     <div>
                         <span className="flex items-center gap-4">
-                            <FaGithub className="text-xl"></FaGithub>
+                            <FaUser className="text-xl"></FaUser>
                             <h2 className="text-[20px] font-semibold">{player.name}</h2>
                         </span>
                         <span className="flex justify-between items-center ">
@@ -33,7 +33,8 @@ const PlayerCard = ({ player }) => {
                             <span className="text-[#131313b2]">{player.rating}</span>
                         </span>
                         <div className="space-y-3">
-                            <span className="flex items-center justify-between">
+                            <span 
+                            className="flex items-center justify-between">
                                 <p className="text-[#131313] font-bold">{player.battingStyle}</p>
                                 <p className="text-[#131313] font-bold">{player.bowlingStyle}</p>
                             </span>
