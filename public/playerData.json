@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "Batter",
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Medium",
+    "price": 1500000,
+    "rating": 9.8,
+    "image": "https://i.ibb.co.com/Kcj6R4d6/image.png"
+  },
+  {
+    "id": 2,
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "role": "Bowler",
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": 1500000,
+    "rating": 9.8,
+    "image": "https://i.ibb.co.com/jkt2KH7L/image.png"
+  },
+  {
+    "id": 3,
+    "name": "Litton Das",
+    "country": "Bangladesh",
+    "role": "Wicket-Keeper",
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "None",
+    "price": 1350000,
+    "rating": 9.2,
+    "image": "https://i.ibb.co.com/2J6WfpK/image.png"
+  },
+  {
+    "id": 4,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batter",
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": 1490000,
+    "rating": 9.7,
+    "image": "https://i.ibb.co.com/BVxY5MJQ/image.png"
+  },
+  {
+    "id": 5,
+    "name": "Jos Buttler",
+    "country": "England",
+    "role": "Wicket-Keeper",
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "None",
+    "price": 1450000,
+    "rating": 9.5,
+    "image": "https://i.ibb.co.com/1J9G2nQT/image.png"
+  },
+  {
+    "id": 6,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Leg Break",
+    "price": 1450000,
+    "rating": 9.7,
+    "image": "https://i.ibb.co.com/6RKzfjbG/image.png"
+  },
+  {
+    "id": 7,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": 1500000,
+    "rating": 9.9,
+    "image": "https://i.ibb.co.com/F42ZMXb2/image.png"
+  },
+  {
+    "id": 8,
+    "name": "Kagiso Rabada",
+    "country": "South Africa",
+    "role": "Bowler",
+    "battingStyle": "Left-Hand-Bat",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": 1470000,
+    "rating": 9.6,
+    "image": "https://i.ibb.co.com/rRg5J3pJ/image.png"
+  },
+  {
+    "id": 9,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batter",
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": 1400000,
+    "rating": 9.4,
+    "image": "https://i.ibb.co.com/B5Psm0xk/image.png"
+  },
+  {
+    "id": 10,
+    "name": "Taskin Ahmed",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": 1450000,
+    "rating": 9.4,
+    "image": "https://i.ibb.co.com/8ghTJV37/image.png"
+  },
+  {
+    "id": 11,
+    "name": "Hardik Pandya",
+    "country": "India",
+    "role": "All-Rounder",
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Medium Fast",
+    "price": 1480000,
+    "rating": 9.5,
+    "image": "https://i.ibb.co.com/M583tKqt/image.png"
+  },
+  {
+    "id": 12,
+    "name": "Shaheen Afridi",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "battingStyle": "Left-Hand-Bat",
+    "bowlingStyle": "Left-Arm Fast",
+    "price": 1460000,
+    "rating": 9.6,
+    "image": "https://i.ibb.co.com/d4tGggxk/image.png"
+  },
+  {
+    "id": 13,
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-Rounder",
+    "battingStyle": "Left-Hand-Bat",
+    "bowlingStyle": "Right-Arm Fast Medium",
+    "price": 1550000,
+    "rating": 9.8,
+    "image": "https://i.ibb.co.com/x83tgJ26/image.png"
+  },
+  {
+    "id": 14,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "battingStyle": "Left-Hand-Bat",
+    "bowlingStyle": "Left-Arm Orthodox",
+    "price": 1500000,
+    "rating": 9.8,
+    "image": "https://i.ibb.co.com/zVwz0Yhn/image.png"
+  },
+  {
+    "id": 15,
+    "name": "Rohit Sharma",
+    "country": "India",
+    "role": "Batter",
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": 1450000,
+    "rating": 9.6,
+    "image": "https://i.ibb.co.com/270pzdsz/image.png"
+  },
+  {
+    "id": 16,
+    "name": "Glenn Maxwell",
+    "country": "Australia",
+    "role": "All-Rounder",
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": 1490000,
+    "rating": 9.7,
+    "image": "https://i.ibb.co.com/PGb7GMdq/image.png"
+  },
+  {
+    "id": 17,
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "battingStyle": "Left-Hand-Bat",
+    "bowlingStyle": "Left-Arm Fast Medium",
+    "price": 1420000,
+    "rating": 9.3,
+    "image": "https://i.ibb.co.com/xKJ8tym3/image.png"
+  },
+  {
+    "id": 18,
+    "name": "Travis Head",
+    "country": "Australia",
+    "role": "All-Rounder",
+    "battingStyle": "Left-Hand-Bat",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": 1420000,
+    "rating": 9.4,
+    "image": "https://i.ibb.co.com/TqBVVdzt/image.png"
+  },
+  {
+    "id": 19,
+    "name": "Mohammad Rizwan",
+    "country": "Pakistan",
+    "role": "Wicket-Keeper",
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "None",
+    "price": 1450000,
+    "rating": 9.6,
+    "image": "https://i.ibb.co.com/Fb7m3FtB/image.png"
+  },
+  {
+    "id": 20,
+    "name": "Mehidy Hasan Miraz",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": 1480000,
+    "rating": 9.5,
+    "image": "https://i.ibb.co.com/C3MxYC59/image.png"
+  }
+]
