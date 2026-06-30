@@ -4,7 +4,7 @@ import AvailablePlayers from "./availablePlayers/AvailablePlayer";
 import SelectetPlayers from "./selectedPlayers/SelectetPlayers";
 
 
-const Players = ({ isLoading, error, playersData }) => {
+const Players = ({ isLoading, error, playersData, setCoin, coin }) => {
 
     const [btnType, setBtnType] = useState('available');
 
@@ -28,7 +28,7 @@ const Players = ({ isLoading, error, playersData }) => {
 
                 {/* card containter */}
 
-                {btnType === 'available' ? <AvailablePlayers isLoading={isLoading} playersData={playersData} error={error}></AvailablePlayers> : <SelectetPlayers></SelectetPlayers>}
+                {btnType === 'available' ? <AvailablePlayers isLoading={isLoading} playersData={playersData} error={error} coin={coin} setCoin={setCoin}></AvailablePlayers> : <SelectetPlayers></SelectetPlayers>}
 
 
             </div>

@@ -11,6 +11,10 @@ import { toast, ToastContainer } from "react-toastify"
 
 
 function App() {
+
+  const [coin, setCoin] = useState(5000000);
+
+
   const [playersData, setPlayers] = useState([]);
   const [isLoading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -47,11 +51,17 @@ function App() {
   return (
     <>
       <header>
-        <Navbar></Navbar>
-        <Banner></Banner>
+        <Navbar coin={coin}></Navbar>
+        <Banner coin={coin} setCoin={setCoin}></Banner>
       </header>
       <main>
-        <Players isLoading={isLoading} error={error} playersData={playersData}></Players>
+        <Players
+          isLoading={isLoading}
+          error={error}
+          playersData={playersData}
+          coin={coin}
+          setCoin={setCoin}
+        ></Players>
 
       </main>
       <ToastContainer></ToastContainer>

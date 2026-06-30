@@ -7,7 +7,7 @@ import Hamburger from 'hamburger-react'
 
 
 
-const Navbar = () => {
+const Navbar = ({ coin }) => {
     const [open, setOpen] = useState(false);
 
     const menus = <>
@@ -35,7 +35,7 @@ const Navbar = () => {
                         </ul>
                         <div className='flex items-center'>
                             <button className="btn btn-ghost">
-                                <span className='font-semibold'>0 Coin</span>
+                                <span className='font-semibold'>{coin} Coin</span>
                                 <img src={dollerCoin} alt="" />
                             </button>
                             <span className='md:hidden btn btn-ghost'><Hamburger onToggle={() => setOpen(!open)}></Hamburger></span>
