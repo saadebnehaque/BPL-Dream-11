@@ -7,7 +7,7 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 const SelecledPlayerCard = () => {
     return (
         <>
-            <div className="border border-[#1313131a] p-6 rounded-2xl flex justify-between items-center gap-6 w-full shadow-sm ">
+            <div className="border border-[#1313131a] p-6 rounded-2xl flex justify-between items-center gap-6 w-full hover:shadow-sm ">
                 <div id="img" className=" bg-[#D9D9D9] w-20 h-20 rounded-2xl">
                     {/* <img src="./" alt="" /> */}
                 </div>
