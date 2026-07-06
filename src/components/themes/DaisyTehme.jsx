@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 
 
 
-export const useDaisyTehme = () => {
+export const useDaisyTheme = () => {
 
     const [daisyTheme, setDaisyTheme] = useState('light')
     useEffect(() => {

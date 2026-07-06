@@ -7,7 +7,7 @@ import Hamburger from 'hamburger-react'
 
 
 
-const Navbar = ({ coin }) => {
+const Navbar = ({ coin, toggoleDaisyTheme }) => {
     const [open, setOpen] = useState(false);
 
     const menus = <>
@@ -34,7 +34,7 @@ const Navbar = ({ coin }) => {
                             {menus}
                         </ul>
                         <div className='flex items-center'>
-                            <button className="btn btn-ghost">
+                            <button className="btn btn-ghost" onClick={toggoleDaisyTheme}>
                                 <span className='font-semibold'>{coin} Coin</span>
                                 <img src={dollerCoin} alt="" />
                             </button>

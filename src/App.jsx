@@ -3,7 +3,7 @@ import Banner from "./components/Banner/Banner"
 import Navbar from "./components/navBar/Navbar"
 // import PlayerCard from "./components/playerContainer/PlayerCard"
 import Players from "./components/playerContainer/Players"
-import { useDaisyTehme } from "./components/themes/DaisyTehme"
+import { useDaisyTheme } from "./components/themes/DaisyTehme"
 import { toast, ToastContainer } from "react-toastify"
 // import AvailablePlayers from "./components/playerContainer/availablePlayers/AvailablePlayer"
 
@@ -47,11 +47,12 @@ function App() {
   }, [])
 
 
-  useDaisyTehme()
+  const { toggoleDaisyTheme } = useDaisyTheme()
+  const [selectedPlayers, setSelectedPlayers] = useState([]);
   return (
     <>
       <header>
-        <Navbar coin={coin}></Navbar>
+        <Navbar coin={coin} toggoleDaisyTheme={toggoleDaisyTheme}></Navbar>
         <Banner coin={coin} setCoin={setCoin}></Banner>
       </header>
       <main>
@@ -61,6 +62,8 @@ function App() {
           playersData={playersData}
           coin={coin}
           setCoin={setCoin}
+          selectedPlayers={selectedPlayers}
+          setSelectedPlayers={setSelectedPlayers}
         ></Players>
 
       </main>

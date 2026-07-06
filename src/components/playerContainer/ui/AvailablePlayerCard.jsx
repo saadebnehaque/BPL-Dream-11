@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 
 
 
-const PlayerCard = ({ player, coin, setCoin }) => {
+const PlayerCard = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers }) => {
 
     const [isSelected, setIsSelected] = useState(false);
 
@@ -15,8 +15,10 @@ const PlayerCard = ({ player, coin, setCoin }) => {
             (
                 setIsSelected(!isSelected),
                 setCoin(coin - player.price),
-                toast.success(player.name + " selected succesfully")
-            ) :
+                toast.success(player.name + " selected succesfully"),
+                setSelectedPlayers([...selectedPlayers, player])
+            )
+            :
             (
                 toast.error("insufficiant balance")
             )
