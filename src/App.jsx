@@ -65,7 +65,6 @@ function App() {
           selectedPlayers={selectedPlayers}
           setSelectedPlayers={setSelectedPlayers}
         ></Players>
-
       </main>
       <ToastContainer></ToastContainer>
     </>

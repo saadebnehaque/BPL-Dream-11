@@ -13,7 +13,7 @@ const Players = ({ isLoading, error, playersData, setCoin, coin, selectedPlayers
         <>
             <div className="container mx-auto mt-22 space-y-8">
                 <div className="sticky top-16 p-4 z-9 bg-white shadow-sm flex flex-col md:flex-row items-center justify-between ">
-                    <h2 className="text-[28px] font-bold">{btnType === 'available' ? 'Availabale Players' : `Selected Players `}</h2>
+                    <h2 className="text-[28px] font-bold">{btnType === 'available' ? 'Availabale Players' : `Selected Players (${selectedPlayers.length + '/' + playersData.length})`}</h2>
                     <div className="space-x-0 ">
                         <button
                             onClick={() => setBtnType('available')}
@@ -22,7 +22,7 @@ const Players = ({ isLoading, error, playersData, setCoin, coin, selectedPlayers
                         <button
                             onClick={() => setBtnType('selected')}
                             className={`btn ${btnType === 'selected' && 'bg-[#E7FE29]'} border-l-0 rounded-l-none rounded-r-[10px]`}
-                        >Selected(0)</button>
+                        >Selected({selectedPlayers.length})</button>
                     </div>
                 </div>
 
@@ -31,9 +31,16 @@ const Players = ({ isLoading, error, playersData, setCoin, coin, selectedPlayers
                 {
                     btnType === 'available'
                         ?
-                        <AvailablePlayers isLoading={isLoading} playersData={playersData} error={error} coin={coin} setCoin={setCoin} setSelectedPlayers={setSelectedPlayers} selectedPlayers={selectedPlayers}></AvailablePlayers>
+                        <AvailablePlayers
+                            isLoading={isLoading}
+                            playersData={playersData}
+                            error={error} coin={coin}
+                            setCoin={setCoin}
+                            setSelectedPlayers={setSelectedPlayers}
+                            selectedPlayers={selectedPlayers}
+                        ></AvailablePlayers>
                         :
-                        <SelectetPlayers selectedPlayers={selectedPlayers}></SelectetPlayers>
+                        <SelectetPlayers playersData={playersData} selectedPlayers={selectedPlayers}></SelectetPlayers>
                 }
 
 

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FaFlag, FaUser, } from "react-icons/fa";
 import { toast } from "react-toastify";
 
@@ -6,21 +5,25 @@ import { toast } from "react-toastify";
 
 const PlayerCard = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers }) => {
 
-    const [isSelected, setIsSelected] = useState(false);
+
+
+    const isSelected = selectedPlayers.some(p => p === player);
+
+    // const isSelected = selectedIDs.has(player.id);
 
 
     const handleSelectedPlayers = () => {
 
         player.price <= coin ?
             (
-                setIsSelected(!isSelected),
+
                 setCoin(coin - player.price),
                 toast.success(player.name + " selected succesfully"),
                 setSelectedPlayers([...selectedPlayers, player])
             )
             :
             (
-                toast.error("insufficiant balance")
+                toast.error(`insufficiant balance to buy ${player.name}`)
             )
 
     }
@@ -61,7 +64,8 @@ const PlayerCard = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers
                                 <button
                                     onClick={handleSelectedPlayers}
                                     className="btn"
-                                    disabled={isSelected} >{isSelected ? "Selected" : "Choose Player"}</button>
+                                    disabled={isSelected} >{isSelected ? "Selected" : "Choose Player"}
+                                </button>
                             </div>
                         </div>
                     </div>
