@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 
 
 
-const PlayerCard = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers }) => {
+const PlayerCard = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers, setModalPlayer }) => {
 
 
 
@@ -37,7 +37,7 @@ const PlayerCard = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers
                     <div>
                         <span className="flex items-center gap-4">
                             <FaUser className="text-xl"></FaUser>
-                            <h2 className="text-[20px] font-semibold">{player.name}</h2>
+                            <h2 className="text-[20px] font-semibold hover:underline active:scale-95 transition-all duration-150 ease-in-out cursor-pointer" onClick={()=>setModalPlayer(player)}>{player.name}</h2>
                         </span>
                         <span className="flex justify-between items-center ">
                             <span className="flex items-center gap-3">
@@ -60,7 +60,7 @@ const PlayerCard = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers
                                 <p className="text-[#131313] font-bold">{player.bowlingStyle}</p>
                             </span>
                             <div className="flex items-center justify-between">
-                                <p className="text-[#131313] font-bold">price:${player.price}</p>
+                                <p className="text-[#131313] font-bold">price: ${player.price}</p>
                                 <button
                                     onClick={handleSelectedPlayers}
                                     className="btn"

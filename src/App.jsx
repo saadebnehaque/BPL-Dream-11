@@ -12,7 +12,7 @@ import { toast, ToastContainer } from "react-toastify"
 
 function App() {
 
-  const [coin, setCoin] = useState(5000000);
+  const [coin, setCoin] = useState(500000);
 
 
   const [playersData, setPlayers] = useState([]);

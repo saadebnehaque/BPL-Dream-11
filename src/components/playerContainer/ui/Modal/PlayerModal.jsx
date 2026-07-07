@@ -2,14 +2,14 @@ import { FaFlag } from 'react-icons/fa';
 
 
 
-const SelectedPlayerModal = ({ selectedPlayer }) => {
-    console.log(selectedPlayer);
-     if (!selectedPlayer) return null;
+const SelectedPlayerModal = ({ selectedPlayer, setModalPlayer }) => {
+    // console.log(selectedPlayer);
+    if (!selectedPlayer) return null;
     return (
         <>
             {/* Open the modal using document.getElementById('ID').showModal() method */}
             {/* <button className="btn" onClick={() => document.getElementById('my_modal_1').showModal()}>open modal</button> */}
-            <dialog id="my_modal_1" className="modal">
+            <dialog id="my_modal_1" className="modal" onClose={()=>setModalPlayer(null)}>
                 <div className="modal-box ">
                     <div className="flex gap-4 items-center">
 

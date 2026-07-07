@@ -1,13 +1,18 @@
 
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import AvailablePlayers from "./availablePlayers/AvailablePlayer";
 import SelectetPlayers from "./selectedPlayers/SelectetPlayers";
+import SelectedPlayerModal from "./ui/Modal/PlayerModal";
 
 
 const Players = ({ isLoading, error, playersData, setCoin, coin, selectedPlayers, setSelectedPlayers }) => {
 
     const [btnType, setBtnType] = useState('available');
 
+    const [modalPlayer, setModalPlayer] = useState(null);
+    useEffect(() => {
+        modalPlayer && document.getElementById('my_modal_1').showModal()
+    }, [modalPlayer])
 
     return (
         <>
@@ -38,13 +43,15 @@ const Players = ({ isLoading, error, playersData, setCoin, coin, selectedPlayers
                             setCoin={setCoin}
                             setSelectedPlayers={setSelectedPlayers}
                             selectedPlayers={selectedPlayers}
+                            setModalPlayer={setModalPlayer}
                         ></AvailablePlayers>
                         :
-                        <SelectetPlayers playersData={playersData} selectedPlayers={selectedPlayers}></SelectetPlayers>
+                        <SelectetPlayers playersData={playersData} selectedPlayers={selectedPlayers} modalPlayer={modalPlayer} setModalPlayer={setModalPlayer}></SelectetPlayers>
                 }
 
 
             </div>
+             < SelectedPlayerModal selectedPlayer={modalPlayer} modalPlayer={modalPlayer} setModalPlayer={setModalPlayer}></SelectedPlayerModal>
         </>
     );
 };

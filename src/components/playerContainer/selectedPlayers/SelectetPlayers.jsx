@@ -1,16 +1,12 @@
 import { ImFilesEmpty } from "react-icons/im";
 import SelecledPlayerCard from "../ui/SelecledPlayerCard";
-import { useEffect, useState } from "react";
-import SelectedPlayerModal from "../ui/Modal/SelectedPlayerModal";
+// import SelectedPlayerModal from "../ui/Modal/PlayerModal";
 
 
 
-const SelectetPlayers = ({ selectedPlayers }) => {
-    const [modalPlayer, setModalPlayer] = useState(null);
+const SelectetPlayers = ({ selectedPlayers, setModalPlayer }) => {
+
     // console.log(selectedPlayers);
-    useEffect(() => {
-        modalPlayer && document.getElementById('my_modal_1').showModal()
-    }, [modalPlayer])
 
     return (
         <>
@@ -26,7 +22,7 @@ const SelectetPlayers = ({ selectedPlayers }) => {
                     {
                         selectedPlayers.map(selectedPlayer => <SelecledPlayerCard key={selectedPlayer.id} selectedPlayer={selectedPlayer} setModalPlayer={setModalPlayer}></SelecledPlayerCard>)
                     }
-                    < SelectedPlayerModal selectedPlayer={modalPlayer}></SelectedPlayerModal>
+
                 </div >}
         </>
     );

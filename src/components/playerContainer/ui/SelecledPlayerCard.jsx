@@ -1,6 +1,6 @@
 import { RiDeleteBin6Line } from "react-icons/ri";
 
-const SelecledPlayerCard = ({ selectedPlayer,setModalPlayer }) => {
+const SelecledPlayerCard = ({ selectedPlayer, setModalPlayer }) => {
     return (
         <div className="border border-[#1313131a] p-6 rounded-2xl flex justify-between items-center gap-6 w-full hover:shadow-sm">
 
@@ -12,7 +12,7 @@ const SelecledPlayerCard = ({ selectedPlayer,setModalPlayer }) => {
 
             <div className="w-full text-left">
                 <h3
-                    className="w-fit text-2xl font-semibold cursor-pointer hover:underline"
+                    className="w-fit text-2xl font-semibold cursor-pointer hover:underline active:scale-95 transition-all duration-150 ease-in-out"
                     onClick={() => {
                         setModalPlayer(selectedPlayer);
                     }}

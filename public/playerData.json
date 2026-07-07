@@ -6,7 +6,7 @@
     "role": "Batter",
     "battingStyle": "Right-Hand-Bat",
     "bowlingStyle": "Right-Arm Medium",
-    "price": 1500000,
+    "price": 150000,
     "rating": 9.8,
     "image": "https://i.ibb.co.com/Kcj6R4d6/image.png"
   },
@@ -17,7 +17,7 @@
     "role": "Bowler",
     "battingStyle": "Right-Hand-Bat",
     "bowlingStyle": "Right-Arm Fast",
-    "price": 1500000,
+    "price": 150000,
     "rating": 9.8,
     "image": "https://i.ibb.co.com/jkt2KH7L/image.png"
   },
@@ -28,7 +28,7 @@
     "role": "Wicket-Keeper",
     "battingStyle": "Right-Hand-Bat",
     "bowlingStyle": "None",
-    "price": 1350000,
+    "price": 135000,
     "rating": 9.2,
     "image": "https://i.ibb.co.com/2J6WfpK/image.png"
   },
@@ -39,7 +39,7 @@
     "role": "Batter",
     "battingStyle": "Right-Hand-Bat",
     "bowlingStyle": "Right-Arm Off Break",
-    "price": 1490000,
+    "price": 149000,
     "rating": 9.7,
     "image": "https://i.ibb.co.com/BVxY5MJQ/image.png"
   },
@@ -50,7 +50,7 @@
     "role": "Wicket-Keeper",
     "battingStyle": "Right-Hand-Bat",
     "bowlingStyle": "None",
-    "price": 1450000,
+    "price": 145000,
     "rating": 9.5,
     "image": "https://i.ibb.co.com/1J9G2nQT/image.png"
   },
@@ -61,7 +61,7 @@
     "role": "Bowler",
     "battingStyle": "Right-Hand-Bat",
     "bowlingStyle": "Right-Arm Leg Break",
-    "price": 1450000,
+    "price": 145000,
     "rating": 9.7,
     "image": "https://i.ibb.co.com/6RKzfjbG/image.png"
   },
@@ -72,7 +72,7 @@
     "role": "Bowler",
     "battingStyle": "Right-Hand-Bat",
     "bowlingStyle": "Right-Arm Fast",
-    "price": 1500000,
+    "price": 150000,
     "rating": 9.9,
     "image": "https://i.ibb.co.com/F42ZMXb2/image.png"
   },
@@ -83,7 +83,7 @@
     "role": "Bowler",
     "battingStyle": "Left-Hand-Bat",
     "bowlingStyle": "Right-Arm Fast",
-    "price": 1470000,
+    "price": 147000,
     "rating": 9.6,
     "image": "https://i.ibb.co.com/rRg5J3pJ/image.png"
   },
@@ -94,7 +94,7 @@
     "role": "Batter",
     "battingStyle": "Right-Hand-Bat",
     "bowlingStyle": "Right-Arm Off Break",
-    "price": 1400000,
+    "price": 140000,
     "rating": 9.4,
     "image": "https://i.ibb.co.com/B5Psm0xk/image.png"
   },
@@ -105,7 +105,7 @@
     "role": "Bowler",
     "battingStyle": "Right-Hand-Bat",
     "bowlingStyle": "Right-Arm Fast",
-    "price": 1450000,
+    "price": 145000,
     "rating": 9.4,
     "image": "https://i.ibb.co.com/8ghTJV37/image.png"
   },
@@ -116,7 +116,7 @@
     "role": "All-Rounder",
     "battingStyle": "Right-Hand-Bat",
     "bowlingStyle": "Right-Arm Medium Fast",
-    "price": 1480000,
+    "price": 148000,
     "rating": 9.5,
     "image": "https://i.ibb.co.com/M583tKqt/image.png"
   },
@@ -127,7 +127,7 @@
     "role": "Bowler",
     "battingStyle": "Left-Hand-Bat",
     "bowlingStyle": "Left-Arm Fast",
-    "price": 1460000,
+    "price": 146000,
     "rating": 9.6,
     "image": "https://i.ibb.co.com/d4tGggxk/image.png"
   },
@@ -138,7 +138,7 @@
     "role": "All-Rounder",
     "battingStyle": "Left-Hand-Bat",
     "bowlingStyle": "Right-Arm Fast Medium",
-    "price": 1550000,
+    "price": 155000,
     "rating": 9.8,
     "image": "https://i.ibb.co.com/x83tgJ26/image.png"
   },
@@ -149,7 +149,7 @@
     "role": "All-Rounder",
     "battingStyle": "Left-Hand-Bat",
     "bowlingStyle": "Left-Arm Orthodox",
-    "price": 1500000,
+    "price": 150000,
     "rating": 9.8,
     "image": "https://i.ibb.co.com/zVwz0Yhn/image.png"
   },
@@ -160,7 +160,7 @@
     "role": "Batter",
     "battingStyle": "Right-Hand-Bat",
     "bowlingStyle": "Right-Arm Off Break",
-    "price": 1450000,
+    "price": 145000,
     "rating": 9.6,
     "image": "https://i.ibb.co.com/270pzdsz/image.png"
   },
@@ -171,7 +171,7 @@
     "role": "All-Rounder",
     "battingStyle": "Right-Hand-Bat",
     "bowlingStyle": "Right-Arm Off Break",
-    "price": 1490000,
+    "price": 149000,
     "rating": 9.7,
     "image": "https://i.ibb.co.com/PGb7GMdq/image.png"
   },
@@ -182,7 +182,7 @@
     "role": "Bowler",
     "battingStyle": "Left-Hand-Bat",
     "bowlingStyle": "Left-Arm Fast Medium",
-    "price": 1420000,
+    "price": 142000,
     "rating": 9.3,
     "image": "https://i.ibb.co.com/xKJ8tym3/image.png"
   },
@@ -193,7 +193,7 @@
     "role": "All-Rounder",
     "battingStyle": "Left-Hand-Bat",
     "bowlingStyle": "Right-Arm Off Break",
-    "price": 1420000,
+    "price": 142000,
     "rating": 9.4,
     "image": "https://i.ibb.co.com/TqBVVdzt/image.png"
   },
@@ -204,7 +204,7 @@
     "role": "Wicket-Keeper",
     "battingStyle": "Right-Hand-Bat",
     "bowlingStyle": "None",
-    "price": 1450000,
+    "price": 145000,
     "rating": 9.6,
     "image": "https://i.ibb.co.com/Fb7m3FtB/image.png"
   },
@@ -215,7 +215,7 @@
     "role": "All-Rounder",
     "battingStyle": "Right-Hand-Bat",
     "bowlingStyle": "Right-Arm Off Break",
-    "price": 1480000,
+    "price": 148000,
     "rating": 9.5,
     "image": "https://i.ibb.co.com/C3MxYC59/image.png"
   }

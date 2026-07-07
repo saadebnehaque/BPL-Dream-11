@@ -16,7 +16,7 @@ const Banner = ({ coin, setCoin }) => {
                         <p className="md:text-2xl font-medium">Beyond Boundaries Beyond Limits</p>
                     </div>
                     <button
-                        onClick={() => setCoin(coin + 50000)}
+                        onClick={() => setCoin(coin + 500000)}
                         className="px-8 py-4 rounded-2xl bg-[#E7FE29] border-2 border-[#131313] text-[#131313] font-bold hover:bg-[#d8ef22] hover:scale-105 active:scale-100 active:ring-2 active:ring-[#d8ef22] active:ring-offset-2 active:ring-offset-[#131313] transition-all duration-150 ease-in-out">
                         Claim Free Credit
                     </button>
